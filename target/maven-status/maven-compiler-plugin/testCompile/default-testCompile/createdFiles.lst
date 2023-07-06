@@ -1,0 +1,7 @@
+step_definitions\Hooks.class
+step_definitions\LoginSteps.class
+step_definitions\CheckoutInformationSteps.class
+step_definitions\CartSteps.class
+runner\RunnerTest.class
+step_definitions\CheckoutOverviewSteps.class
+step_definitions\PurchaseSteps.class

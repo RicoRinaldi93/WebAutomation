@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="46.89" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add To Chart Item" name="Normal Add To Chart Item" time="46.708">
+<system-out><![CDATA[
+Given User open the website sauce demo......................................passed
+When User input "standard_user" as userName and input "secret_sauce" as password.passed
+And User click login button.................................................passed
+And User sort filter "Name (Z to A)'".......................................passed
+And User pick item 1 "Sauce Labs Onesie"....................................passed
+And User pick item 2 "Test.allTheThings() T-Shirt (Red)"....................passed
+And User click the cart icon................................................passed
+And User input "Rico" on First Name field...................................passed
+And User input "Rinaldi" on Last Name field.................................passed
+And User input "17421" on ZIP or Postal Code field..........................passed
+And User click continue button..............................................passed
+Then User directed to check out overview page...............................passed
+And User click finish button................................................passed
+Then User completed checkout proses.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
